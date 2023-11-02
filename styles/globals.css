@@ -33,10 +33,21 @@ picture {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 button,
 a {
+  border: none;
+  padding: 0;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+button,
+a:focus-visible {
+  outline: none;
 }
