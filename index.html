@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
-    <link rel="icon" href="./images/favicon.ico" sizes="any" />
-    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="stylesheet" href="./styles/light.css" />
+    <link rel="icon" href="images/favicon.ico" sizes="any" />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/dark.css" />
+    <link rel="stylesheet" href="styles/light.css" />
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -45,7 +45,7 @@
         </ul>
         <span aria-hidden="true" class="decorated-zone__text"></span>
       </nav>
-      <h1 class="header__title">no focus</h1>
+      <h1 class="page__title">no focus</h1>
       <div class="header__content title-decor">
         <p class="header__description">
           Что делать, когда не можешь делать ничего
@@ -60,7 +60,7 @@
     <main class="content">
       <section class="content__section">
         <ul class="content__card-list">
-          <li class="content__card-first">
+          <li class="content__card">
             <h2 class="content__heading">Почему сосредоточиться так сложно</h2>
             <article class="content__card-item">
               <h3 class="card__title title-decor">Многозадачность</h3>
@@ -97,7 +97,7 @@
             </article>
           </li>
 
-          <li class="content__card-second">
+          <li class="content__card">
             <h2 class="content__heading">Что снижает концентрацию внимания?</h2>
             <article class="content__card-item">
               <h3 class="card__title title-decor">Многозадачность</h3>
@@ -136,16 +136,18 @@
             </article>
           </li>
 
-          <li class="content__card-third">
+          <li class="content__card">
             <h2 class="content__heading">
               Как концентрироваться лучше, чем золотая рыбка (то есть дольше
               трёх секунд)
             </h2>
             <article class="content__card-item">
-              <h3 class="card__title title-decor">
+              <h3 class="card__heading title-decor">
                 5 простых (на самом деле не очень) советов
               </h3>
-              <h4 class="card__title title-decor">Представьте небо и облака</h4>
+              <h4 class="card__title weight-normal title-decor">
+                Представьте небо и облака
+              </h4>
               <p class="card__text">
                 Или листья в ручье. Тут дело в лёгкой медитации, которая
                 помогает успокоиться. Ведь часто именно тревожные мысли о
@@ -158,7 +160,9 @@
               </p>
             </article>
             <article class="content__card-item">
-              <h4 class="card__title title-decor">Включите музыку</h4>
+              <h4 class="card__title weight-normal title-decor">
+                Включите музыку
+              </h4>
               <p class="card__text">
                 Но не любую, и не любимую. Любимая может быть связана с сильными
                 положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -167,7 +171,9 @@
               </p>
             </article>
             <article class="content__card-item">
-              <h4 class="card__title title-decor">Прогуляйтесь</h4>
+              <h4 class="card__title weight-normal title-decor">
+                Прогуляйтесь
+              </h4>
               <p class="card__text">
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
                 <a
@@ -184,7 +190,9 @@
               </p>
             </article>
             <article class="content__card-item">
-              <h4 class="card__title title-decor">Хорошо ешьте</h4>
+              <h4 class="card__title weight-normal title-decor">
+                Хорошо ешьте
+              </h4>
               <p class="card__text">
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
                 которые препятствуют резким скачкам сахара в крови. Например, с
@@ -194,7 +202,7 @@
               </p>
             </article>
             <article class="content__card-item">
-              <h4 class="card__title title-decor">Читайте</h4>
+              <h4 class="card__title weight-normal title-decor">Читайте</h4>
               <p class="card__text">
                 Настоящие бумажные книги. Это правда помогает с концентрацией:
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -207,53 +215,43 @@
       </section>
 
       <section class="images__section">
-        <h5 class="card__title title-decor">А можно в картинках?</h5>
+        <h2 class="card__title title-decor">А можно в картинках?</h2>
         <div class="images__block">
-          <div class="image-one">
-            <img
-              class="image-item"
-              src="/images/sunset.png"
-              alt="картинка с закатом в горах"
-              loading="lazy"
-            />
-          </div>
-          <div class="image-two">
-            <img
-              class="image-item"
-              src="/images/ice-cream.png"
-              alt="картинка с мороженным и мордашками"
-              loading="lazy"
-            />
-          </div>
-          <div class="image-three">
-            <img
-              class="image-item"
-              src="/images/street.png"
-              alt="картинка с улицей"
-              loading="lazy"
-            />
-          </div>
-          <div class="image-four">
-            <img
-              class="image-item"
-              src="/images/books.png"
-              alt="картинка с книгами"
-              loading="lazy"
-            />
-          </div>
-          <div class="image-five">
-            <img
-              class="image-item"
-              src="/images/tape.png"
-              alt="картинка с кассетой"
-              loading="lazy"
-            />
-          </div>
+          <img
+            class="image-item"
+            src="images/sunset.png"
+            alt="картинка с закатом в горах"
+            loading="lazy"
+          />
+          <img
+            class="image-item"
+            src="images/ice-cream.png"
+            alt="картинка с мороженным и мордашками"
+            loading="lazy"
+          />
+          <img
+            class="image-item"
+            src="images/street.png"
+            alt="картинка с улицей"
+            loading="lazy"
+          />
+          <img
+            class="image-item"
+            src="images/books.png"
+            alt="картинка с книгами"
+            loading="lazy"
+          />
+          <img
+            class="image-item"
+            src="images/tape.png"
+            alt="картинка с кассетой"
+            loading="lazy"
+          />
         </div>
       </section>
     </main>
     <footer class="footer decorated-zone">
-      <h6 class="footer__copyright">focus</h6>
+      <h5 class="page__title">focus</h5>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

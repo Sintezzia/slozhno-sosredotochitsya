@@ -6,7 +6,7 @@
   --header-text-shadow: #FF0070;
   --footer-text-color: #FFC2E6;
   --footer-text-shadow: #FF0070;
-  --decorate-zone-color: #353430;
+  --decorate-zone-color: hsl(48, 5%, 20%);
   --content-heading-color: #353430;
   --title-text-color: #353430;
   --bg-color: #FFF1F7;
@@ -22,7 +22,7 @@
   --button-border-active: 1px solid #353430; 
   }
 
-  .page.page.theme_auto .decorated-zone__text {
+  .page.theme_auto .decorated-zone__text {
     display: none;
   }
 }
@@ -50,6 +50,6 @@
   --button-border-active: 1px solid #353430; 
   }
 
-  .page.page.theme_light .decorated-zone__text {
+  .page.theme_light .decorated-zone__text {
     display: none;
   }
