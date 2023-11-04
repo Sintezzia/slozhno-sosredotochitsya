@@ -2,7 +2,7 @@
   background-color: var(--bg-color, #000028);
   font-family: var(--main-font, sans-serif);
   color: var(--text-color, #f1b2ce);
-  background-image: var(--bg-image, url(/images/cover-image-dark.png));
+  background-image: var(--bg-image, url(../images/cover-image-dark.png));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -285,8 +285,8 @@
 }
 
 .images__block .image-item:nth-of-type(3) {
-  grid-column: 4/2;
-  grid-row: 3/4;
+  grid-column: 1/2;
+  grid-row: 2/4;
 }
 
 .images__block .image-item:nth-of-type(4) {
@@ -295,8 +295,9 @@
 }
 
 .images__block .image-item:nth-of-type(5) {
-  grid-column: 1/2;
-  grid-row: 2/4;
+  grid-column: 4/2;
+  grid-row: 3/4;
+
 }
 
 .footer {
@@ -310,6 +311,7 @@
 
 .footer .page__title {
   margin-inline-start: initial;
+  text-shadow: 2px 2px 0 var(--header-text-shadow, #ff0070);
 }
 
 @media (width < 1024px) {

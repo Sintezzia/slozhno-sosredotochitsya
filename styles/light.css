@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
 :root {
- --bg-image: url(/images/cover-image-light.png); 
+ --bg-image: url(../images/cover-image-light.png); 
 
   --header-text-color: #FFC2E6;
   --header-text-shadow: #FF0070;
@@ -28,7 +28,7 @@
 }
 
 .page.theme_light {
-  --bg-image: url(/images/cover-image-light.png); 
+  --bg-image: url(../images/cover-image-light.png); 
 
   --header-text-color: #FFC2E6;
   --header-text-shadow: #FF0070;
